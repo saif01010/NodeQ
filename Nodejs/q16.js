@@ -1,0 +1,20 @@
+function getUserData(callback) {
+    setTimeout(() => {
+        const user = {
+            name: "Anmol Jain",
+            email: "Anmol@gmail.com",
+            age: 20,
+        };
+
+        callback(user);
+    }, 2000);
+}
+
+
+function displayUserData(user) {
+    console.log("Name: " + user.name);
+    console.log("Email: " + user.email);
+    console.log("Age: " + user.age);
+}
+
+getUserData(displayUserData);
