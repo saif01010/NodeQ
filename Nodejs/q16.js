@@ -1,8 +1,8 @@
 function getUserData(callback) {
     setTimeout(() => {
         const user = {
-            name: "Anmol Jain",
-            email: "Anmol@gmail.com",
+            name: "Saiful Islam",
+            email: "saifislam@gmail.com",
             age: 20,
         };
 
